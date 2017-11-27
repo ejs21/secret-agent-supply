@@ -40,8 +40,10 @@ html {
 .background {
   background-image: url("../images/moto.jpeg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 25rem;
-  width: 100%;
+  /* display: flex */
 }
 
 #banner {
@@ -55,8 +57,9 @@ html {
   font-weight: bold;
   width: 20rem;
   background-color: black;
-  margin-top: 9rem;
+  top: 9rem;
   padding: 2rem 3rem;
+  position: relative;
 }
 
 #news h1 {
