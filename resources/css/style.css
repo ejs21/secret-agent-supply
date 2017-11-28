@@ -85,6 +85,7 @@ nav li a {
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
 }
 
 .products {
@@ -109,7 +110,7 @@ nav li a {
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .product .image img {
@@ -168,6 +169,24 @@ footer p {
   text-align: left;
 }
 
+/* Media queries */
 
-  align-items: center;
+@media only screen and (max-width: 1024px) {
+
+  .product {
+    width: 47%;
+  }
+
+  .store .info {
+    width: 35%;
+  }
+
+  .product {
+    display: none;
+  }
+
+  footer {
+    background-color: red;
+  }
+
 }
