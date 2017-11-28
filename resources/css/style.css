@@ -59,7 +59,7 @@ html {
   padding-top: 0.25rem;
 }
 
-#menu {
+nav {
   background-color: firebrick;
 }
 
@@ -76,6 +76,10 @@ nav li {
 nav li a {
   color: white;
   text-decoration: none;
+}
+
+.mobile {
+  display: none;
 }
 
 /* Main container */
@@ -189,4 +193,16 @@ footer p {
     background-color: red;
   }
 
+  ul .site-container {
+      display: none;
+    }
+
+  ul .mobile {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  
 }
