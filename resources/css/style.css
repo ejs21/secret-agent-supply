@@ -68,12 +68,12 @@ nav ul {
   justify-content: space-between;
 }
 
-nav li {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+nav ul li {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
-nav li a {
+nav ul li a {
   color: white;
   text-decoration: none;
 }
@@ -168,6 +168,7 @@ footer {
   height: 5rem;
   background-color: black;
   display: flex;
+}
 
 footer p {
   text-align: left;
@@ -177,6 +178,16 @@ footer p {
 
 @media only screen and (max-width: 1024px) {
 
+ul.site-container {
+  display: none;
+} /* full navigation bar hidden */
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+
   .product {
     width: 47%;
   }
@@ -185,24 +196,12 @@ footer p {
     width: 35%;
   }
 
-  .product {
+  #glasses {
     display: none;
-  }
-
-  footer {
-    background-color: red;
-  }
-
-  ul .site-container {
-      display: none;
-    }
-
-  ul .mobile {
-    display: block;
   }
 
 }
 
 @media only screen and (max-width: 470px) {
-  
+
 }
