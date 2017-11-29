@@ -187,7 +187,6 @@ ul.site-container {
     justify-content: center;
   }
 
-
   .product {
     width: 47%;
   }
@@ -203,5 +202,46 @@ ul.site-container {
 }
 
 @media only screen and (max-width: 470px) {
+
+.background {
+  height: 15rem;
+}
+
+#news {
+  width: 100%;
+  padding: 1rem 2rem;
+  top: 10rem;
+}
+
+#news h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#news p {
+  font-size: 0.77rem;
+}
+
+.product {
+  width: 90%;
+  margin: auto;
+}
+
+#watch {
+  display: none;
+}
+
+.store {
+  flex-direction: column;
+}
+
+.store .info {
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+footer p {
+  text-align: center;
+}
 
 }
